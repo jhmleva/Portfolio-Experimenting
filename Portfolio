@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+    <head>
+	<meta charset="utf-8">
+	<title>Tierra's Art Studio</title>
+    <style>
+h1 {
+ color: #76ee00;
+}
+
+img {
+  border: 2px solid yellow;
+}
+
+p {
+  font-size: 14 px;
+  font-family: Book Antiqua;
+  color: #39EF56
+}
+
+body {
+   background-color: #236507;
+}
+
+h2 {
+ color: #458b00;
+}
+
+h3 {
+ color: #C9C908;
+}
+
+hr {
+ color: yellow;
+ height: 3px;
+ border-width:5;
+background-color: yellow;
+}
+    </style>
+    </head>
+    <body>
+   
+    <h1><center>Welcome to my Art Studio!</center></h1>
+<center>
+ <br><a style="color: lime; "href="index.html">Home!</a>
+      <a style="color: yellow;" href="Art Work.html">Art Work!</a>
+       <a style="color: lime;" href="Favorites.html">Favorites!</a>
+        <a style="color: yellow;" href="Extras+.html">Extras+!</a>
+</center>
+	<hr>
+  
+    <h2><center>Get To Know Me</center></h2>
+
+<center>
+    <img src="C:\Users\tierr\OneDrive\Documents\Pictures!\Me.jpg" width=315 height=315 alt=Me>
+    <img src="C:\Users\tierr\OneDrive\Documents\Pictures!\Me2.jpg" width=315 height=315 alt=Selfie>
+    <img src="C:\Users\tierr\OneDrive\Documents\Pictures!\Family.jpg" width=315 height=315 alt=Family>
+
+    <p><em>Hi! My name is Tierra Doughty! I am 18 year old artist and nerd from Temperanceville, Virginia who lived in Raleigh, North Carolina and currently Riverview, Florida. I have a huge passion for all things art; this site will act as my portfolio and a way to track my art progress.</em></p> 
+   
+ <hr>
+    <h2>Here are some essays I have written about my love and appreciation art along with my origin strory to becoming an artist!</h2>
+   </center>
+ <h3>Narrative Essay:</h3>
+<p>A blank piece of paper rests on the polished, smooth surface of the table as I sit staring with a pencil in hand. Ideas swirl in my mind when I glance around at the environment surrounding me; everything seems much more vivid in my head-colors, images, and shapes, now that I have discovered my passion. Being an artist was and still is a fun journey of self-discovery; uncovering my creativity has helped tremendously for developing my artistry. In my youth, my sense of creativity was an emphasized part of my being all starting from a special flashbulb memory I recall from Kindergarten.</p>
+ <p>On a cloudy day in Kindergarten, it was free-time during class where I could participate in any fun activity including endeavors such as reading the ‘Magic Treehouse’ series, playing with various toys and trinkets, or committing the most nefarious art crime of all-coloring outside the lines. I had my sight set on a colossal box of Legos sitting in the desolate corner that was calling out to me. I ran eagerly as I wanted to claim them all for myself; luckily, I was the only one who ran to the Legos while the others were distracted by the visual of the pounding rain outside and repeatedly asking the teacher if they could splash in the shallow puddles that formed. When I unlocked the immense box, I started to visualize all the possible creations I could make, and this was my first instance of accessing my imagination. Imagination may not be a physical tool, but it is an essential and useful device for artists to protect and keep hold of as I learned later in my art journey. 
+With the unraveling of my imagination, I envisioned a towering skyscraper with two lengthy ladders, each coming down a side of the tower. I used the Legos container as the base of the tower and began building the multi-colored Legos as high as they could go on top. Afterwards, I built the ladder-like structures and placed them specifically on the sides of the box and finally took a step back to witness my creation. I remember the sense of pride rushing over me and filled me up with so much joy that I stared at it for what felt like hours. As I continued observing, my teachers notice my attention caught on something and started to approach my “mighty” tower and examined what I had done. I specifically recalled my favorite teacher, Mrs. Mills remarking that “I displayed a vast sense of creativity” and afterwards, took a picture of my creation and me together. One curious girl named “Crystal” came over to my tower to admire my creation and soon after, a massive crowd formed with my tower and I in the middle. I was the celebrity of my Kindergarten class for the rest of the day until it was time to clean up of course. Reluctantly, I took down the tower piece by piece, brick by brick until the rich, colorful bricks were back into the box and placed them back in the corner.
+   <p>Even though I did not know the meaning of creativity at the time, I loved how accomplished I felt; that feeling of crafting/contriving anything you want really resonated with my youthful spirit and invoked my budding passion for Art. Although I developed my newfound interest in Art, I went through years of on-again and off-again drawing, or just making crafts for school projects. It wasn’t until eighth grade where I started to think of Art as something serious I could pursue, and I made a vow that I would draw every day. As I gained more knowledge and practice art, I realized the new skills and perspective I acquired that can be very valuable in daily life. Art has taught me to discover the beauty in life concealed in plain sight. The sun’s rays painting the kaleidoscope sky with its golden glow. The symphony of animals communicating with each other in the morning. The crisp, fresh dew blanketing the vibrant green grass. The warm steam rising from a cup of tea. Every time I observe something, I look for the fine details that most of the time goes unnoticed at the simplest of places. It makes me appreciate colors, landscapes, and people doing normal tasks. Imagination is something I am happy to still possess; as many people grow older in this cynical world and have many responsibilities, their imagination disappears and is viewed as “childish”. Imagination is a powerful ability due to the endless possibilities one can visualize. With imagination, one can visit fantasy lands, ride dragons, or even be a superhero with powers. I think having my imagination helps me become a better artist. It teaches me to think outside the box and makes my creativity stronger than ever. Furthermore, art has given me a way to express my true thoughts and feelings in a healthier manner as I tap into my feelings when I create my artwork. Art pieces that radiate strong emotions such as nostalgia, loneliness, and sadness resonate with me because of its influences on the viewer. Art has granted me countless skills including patience, creativity, and abstract thinking that I utilize to my advantage.
+     <p>Whenever I introduce myself as an artist now, the most popular response is “Wow, I cannot even draw stick figures or a straight line”. Art is not a competition of who can be the next “Van Gogh” or “Frida Khalo”, but an intimate way to expression your emotions, feelings, and pain. Over my five years of serious drawing practice and even traveling back to Kindergarten, the simplest things can be labelled as art. Drawing contrasting, black scribbles on a page is art. Cooking the best steaming pile of Teriyaki chicken and plating it abstractedly is art. Dancing your heart out to express your feelings until you are gasping for breath is art. Heart is a colossal component of art; as long as it is genuine and special to you, anything can be art. I believe art chose me and I am proud of myself for all the lessons, skills, and opportunities creating has presented me. The most important thing I learned during my art voyage is “Art is my flaming, red, fiery passion that burns like hot coals on the inside that motivates me to create for myself and be fulfilled”.
+</p>
+<br>
+    <h3>This I Believe Essay:</h3>
+<p>Art is a diverse area that adds to everyone’s life in more ways than one. It functions as society’s own recordkeeper tracking as it gives people an opportunity to connect with our ancestors. The cave paintings found in caves, artifacts (vases, books, ruins, and clothing) recovered archiving how they lived, what they invented, and their legacy on our collective history lets us learn more about us. Art has led to the most creative people constantly adding innovative inventions to the world, like Leonardo Da Vinci’s “Flying Machine” leading to the modern day “Helicopter”. Finally, art gives people a way to express their true selves; art should not be controlled by rules as it is subjective where anyone can craft for themselves. Painting, Dancing, Writing, and Pottery are all recognizable forms of art but is not limited to these, as the possibilities/mediums are endless. At the end of the day, I believe in the power of art and the way it defines/portrays the lively world around us.
+	<p>I never ignited my admiration for art until I discovered my creativity in Kindergarten which ultimately led me to develop my passion. I still recall the rain and clouds plaguing the outdoors, having free time for an hour, and me wondering what I should spend my time doing. Some kids were playing with dolls, role-playing, reading, or bothering our teachers with the question of whether or not they could splash in the shallow rain puddles that collected on the sidewalk. Walking around mindlessly, I saw the gleaming yellow Lego box sitting by itself in the corner and pulled it from its solitude. I proceeded to claim a spot on the shaggy rug and dumped out the multi-colored Legos on the ground. So many ideas swirled in my flickering mind the second I observed the Legos lying on the floor. “A castle…no, a tower…A SKYSCRAPER” I thought to myself. This was the first time I embraced and learned about my imagination and later, creativity. Grabbing the Legos box, I used the container as a base to start building my skyscraper and began connecting each block to make a tall rectangular structure that stood straighter than the “Leaning Tower of Pisa” shockingly enough. When I completed the main structure, I used the leftover blocks to generate two ladders that I would soon place on opposite sides of my building. After I put the final finishing touches, I backed away to see the full view of what I created and felt a sense of pride rush over me illustrated by the enormous smile on my face. My teachers noticed my infatuation and approached my creation while a few kids paused their activity to investigate what I had done. One of my teachers declared that I displayed “a great sense of creativity” and took a photo of my creation and I together to capture the moment.
+	<p>My recollection of that flashbulb memory is to express the importance of letting people let their imagination and inner child run wild. Imagination is something that disappears for many people as they age. Imagination is not a childish thing but invokes the feeling of being free. Someone with imagination can create fantasy worlds, ride dragons, and possess superpowers in their head without their cynical outlooks screaming, “that is not possible”. Life can be too serious and difficult sometimes as a teen and adult nowadays. My strong belief on this subject comes from the fact that I along with others have experience or seen the way life goes. People are overworked, tired, must juggle various responsibilities, and have fleeting happiness overall. My immense fear as an artist is being stuck in a cubicle prison at a job I hate and feeling the stress build up until I explode. I believe art can be an escape from the grueling world by putting your energy into something you can be proud of at the end of the day. I recently started to draw how I feel every night before bed to find peace and rid of the negative feelings/experiences the day might have brought on. Art is a powerful subject that can radiate specific feelings including happiness, tranquility, and nostalgia for a time period one has never lived through. That is why art is a great way to spend time whether it be painting a serene landscape while watching Bob Ross, coloring in coloring books no matter your age, or even using interpretive dance to perform how you are feeling and letting loose all over the room.
+	<p>The “Tortured Artist Trope” is the belief that artists’ best works are produced when they are miserable or experiencing a bad mental state. This is simply not true. Yes, famous artists coincidentally made their best pieces during a crisis but this not an accurate perception of the situation. Most used their art as an outlet for portraying the pain they have experience so others could relate to it. Showing that they are not alone. That is why I believe art can appeal to anyone especially those that need a good way to indicate how they feel without having to explain their complex emotions and feelings through words. Art can be everywhere and be made of the simplest of things. There is beauty and art in everyday life as well. The singing and harmony of the birds chirping in the morning where the sky is painted a bright orange by the sun. How the leaves change colors and swirl in the wispy wind creating distinct formations on the ground. The forests coming to life with the symphony of hundreds of different species communicating with each other. The sweet smell of cinnamon tea expelling out of a ceramic mug. I believe that art surrounds us every day in various forms and minimal ways.
+	<p>I believe in the power of art and imagination. I believe in its comforting ways to channel the negative feelings that occur from daily hassles. I believe it is a vital part of society and the culture that is define by their use of it. I believe imagination and art coexists while imagination is a charming aspect to retain from childhood. I believe in the beauty of art no matter where it is from, what medium it is expressed in, or who created it. Art gives me an alternative perspective on life; it shows that the world is my canvas to paint, create, and do whatever my heart desires most. Surely, this proves that Art is beautiful.
+</p>
+
+<hr>
+
+<center>
+ <br><a style="color: yellow; "href="index.html">Home!</a>
+      <a style="color: lime;" href="Art Work.html">Art Work!</a>
+       <a style="color: yellow;" href="Favorites.html">Favorites!</a>
+        <a style="color: lime;" href="Extras+.html">Extras+!</a>
+</center>
+
+</body>
+</html>
