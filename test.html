@@ -1,0 +1,49 @@
+<!DOCTYPE HTML> 
+
+<script>
+
+    //Object typing
+    var typing = {
+        strings: ["Artist", "Programmer", "Creator", "Designer", "Person"], //String Array 
+        typeSpeed: 100, //
+        backSpeed: 60,
+        loop: true
+    }; 
+    
+
+    //Function for typing animation 
+    function typeWriter() {
+        var x = 0 //Counter for typing.strings 
+        var i = 0 //Counter for string length
+
+        if (i < typing.strings[x].length) { //Calls the String in Array typing
+            document.getElementById("demo").innerHTML += txt.charAt(i); //Will find elements with the ID "demo" and start the animation
+            i++;
+            setTimeout(typeWriter, speed); //Replace speed with typeSpeed
+        }
+
+        //Create separate loop or function that undoes the typing animation and moves 
+        //  onto the next string in the array
+
+    }
+
+    <body>
+        <p>Hi, I'm a <span id="demo"></span> </p> <!-- This is where the animaiton will occur, within the span with ID "demo" -->
+        </body>    
+    </script>
+
+
+     
+        <span id="cycle">
+        </span>
+        <script>
+        const textList = ["Breaking", "News"];
+        const cycle = document.querySelector("#cycle");
+    let i = 0;
+    const cycleText = () => {
+      cycle.innerHTML = textList[i];
+      i = ++i % textList.length;
+    };
+    cycleText();
+    setInterval(cycleText, 2000);
+    
