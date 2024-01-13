@@ -4,7 +4,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width-device-width, intial-scale=1.0">
-    <title>Tierra Doughty's Portfolio Site</title>
+    <title>My Portfolio Site | Welcome!</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/1e93cd5124.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -23,9 +23,13 @@
         <i class="fa-solid fa-angle-up"></i>
         </div>
     <nav class="navbar">
+        <div class="toggle">
+            <input type="checkbox" id="toggle" />
+            <label for="toggle"></label>
         <div class="max-width">
-        <div class="logo"><a href="#home"><img src="crown.png" width="76px" height="52px" position="fixed";></a><a href="#home">Royal<span>tee.</span></a></div>
+        <div class="logo"><a href="#home"><img src="crown.png" width="76px" height="52px" position="fixed";></a><a href="#home">Royal<span>tee</span></a></div>
         <ul class="menu">
+            
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#resume">Skills</a></li>
@@ -45,15 +49,12 @@
 <div class="max-width">
     <div class="home-content">
         <div class="text-1">Welcome, my name is</div>
-        <div class="text-2">Tierra Doughty, aka Royaltee</div>
+        <div class="text-2">Tierra Doughty</div>
         <div class="text-3">and I'm an <span class="typing"></span></div>
         <br>
         <br>
         <br>
         <br>
-        <div class="toggle">
-            <input type="checkbox" id="toggle" />
-            <label for="toggle"></label>
         </div>
     </div>
 </div>
@@ -280,7 +281,7 @@
             </div>
             <div class="column right">
                 <div class="text">Email me:</div>
-                <form action="#">
+                <form action="process_form.php" method="POST">
                     <div class="fields">
                         <div class="field name">
                             <input type="text" placeholder="Name" required>

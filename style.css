@@ -105,6 +105,7 @@ section .title::after{
     transition: all 0.3s ease;
     text-shadow: #111;
 }
+/*Tee in Royaltee Logo*/
 .navbar.sticky .logo a span{
     color: #fff;
 }
@@ -144,6 +145,12 @@ section .title::after{
     cursor: pointer;
     display: none;
 }
+.menu-btn:hover{
+color: #FED049;
+    background: none;
+    box-shadow: 0 0 100px #FFFFD0;
+    position: static;
+}
 /* scroll up button */
 .scroll-up-btn{
     position: fixed;
@@ -178,7 +185,7 @@ section .title::after{
     display: flex;
     background: url("shiny-ge022d475c_1920.jpg") no-repeat center;
     height: 100vh;
-    color: #fff;
+    color: #fff; /*Welcome, my name is Text Color*/
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
     background-size: cover;
@@ -210,7 +217,7 @@ section .title::after{
 .home .home-content a{
     display: inline-block;
     background: crimson;
-    color: #fff;
+    color: #ffffff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
@@ -231,27 +238,27 @@ section .title::after{
 .toggle label {
     background-color: #777;
     border: 2px solid #555;
-    border-radius: 50px;
+    border-radius: 50px; /*Org val == 50PX*/
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: all ease-in-out 0.3s;
-    width: 100px;
-    height: 50px;
+    width: 50px; /*100px*/
+    height: 25px; /*50px*/
 }
-
+/*Circle for toggle*/
 .toggle label::after {
     background-color: #555;
-    border-radius: 50%;
+    border-radius: 50%; /*50%*/
     content: ' ';
     cursor: pointer;
     display: inline-block;
-    position: absolute;
+    position: relative; /*absolute*/
     left: 2px;
     top: 2px;
     transition: all ease-in-out 0.3s;
-    width: 42px;
-    height: 42px;
+    width: 21px; /*42px*/
+    height: 21px; /*42px*/
 }
 
 .toggle input[type='checkbox']:checked ~ label {
@@ -271,6 +278,9 @@ body.dark-theme {
 /* about section styling */
 .about .title::after{
     content: "Overview";
+}
+.about.about{
+    background-color: lightslategrey; /*bg color for about me*/
 }
 .about .about-content .left{
     width: 45%;
@@ -298,7 +308,7 @@ body.dark-theme {
 .about .about-content .right a{
     display: inline-block;
     background: #55185D;
-    color: #fff;
+    color: #fff; /*Download Resume text color*/
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
@@ -320,7 +330,7 @@ body.dark-theme {
     height: 35px;
     margin-left: 550px;
     border-radius: 10%;
-    position: static;
+    position: sticky;
 }
   
 .crown2:hover {
@@ -333,7 +343,7 @@ body.dark-theme {
 /* resume section styling */
 /*commissions bg outer layer*/
 .resume, .commissions{
-    color:#fff;
+    color:#fff; /*Commision and Skills text*/
     background: #290849;
 }
 .resume .title::before,
@@ -385,6 +395,11 @@ body.dark-theme {
 .projects .title::after{
     content: "Art + Coding";
 }
+.projects.projects{
+    background-color: lightslategrey; /*bg color for projects*/
+
+}
+
 .projects .projects-content .column{
     width: calc(50% - 30px);
 }
@@ -513,6 +528,10 @@ figure{
 /* contact section styling */
 .contact .title::after{
     content: "Contact Info";
+}
+.contact.contact{
+    background-color: lightslategrey; /*bg color for contact*/
+
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
