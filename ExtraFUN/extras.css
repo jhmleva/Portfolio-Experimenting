@@ -1,0 +1,129 @@
+html{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#93cede+0,75bdd1+41,49a5bf+67,49a5bf+67,49a5bf+80 */
+background: linear-gradient(45deg,  #93cede 0%,#75bdd1 41%,#49a5bf 67%,#49a5bf 67%,#49a5bf 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+body, html{
+   margin: 0;
+  padding: 0;
+}
+
+h1.PageName{
+  color: white;
+  text-align: center;
+}
+
+p.Intro-Text{
+  color: white;
+  text-align:center;
+}
+
+footer{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#649ee0+0,b6d8f2+100&1+0,0+100 */
+background: linear-gradient(45deg,  rgba(100,158,224,1) 0%,rgba(182,216,242,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+text-align: center;
+color: white;
+padding: 3px;
+width: 100%;           /* Makes it span full width */
+  position: relative;    /* or fixed if you want it always on screen */
+  bottom: 0;
+  left: 0;
+}
+footer a{
+    color:white;
+}
+
+div.main-container {
+  width: 600px;
+  border: 3px solid linear-gradient(135deg, rgba(247,255,255,1) 0%,rgba(247,255,255,1) 7%,rgba(247,255,255,1) 12%,rgba(255,255,255,1) 12%,rgba(249,253,255,1) 30%,rgba(242,251,254,1) 54%,rgba(239,248,253,1) 75%,rgba(236,245,252,1) 100%);;
+  border-radius: 50px;
+  padding: 50px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+    min-height: 80vh;
+
+  .LayerOne{
+  position: relative; /* Required parent for absolute children */
+  width: 500px;
+  border: 2px solid linear-gradient(135deg, rgba(247,255,255,1) 0%,rgba(247,255,255,1) 7%,rgba(247,255,255,1) 12%,rgba(255,255,255,1) 12%,rgba(249,253,255,1) 30%,rgba(242,251,254,1) 54%,rgba(239,248,253,1) 75%,rgba(236,245,252,1) 100%);
+  border-radius: 50px;
+  padding: 50px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  min-height: 55vh;
+  background: url("aquarium.gif") repeat center;
+    
+  }
+
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#bad7f6+0,dfeffb+100&1+0,0+100 */
+background: linear-gradient(135deg,  rgba(186,215,246,1) 0%,rgba(223,239,251,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+}
+
+.menu-wrapper {
+  position: relative;           /* Makes MenuButton position relative to this */
+  height: 100%;                 /* Fill the parent */
+  display: flex;
+  justify-content: center;      /* Center horizontally */
+}
+
+.MenuButton {
+  position: absolute;
+  top: 221px;                   /* Distance from the top (move down!) */
+  height: 60px;
+  width: 60px;
+  background: linear-gradient(135deg, rgba(156, 206, 40, 1) 0%, rgba(103, 167, 51, 1) 100%);
+  border-radius: 50%;
+  display: flex;
+  border: 10px solid linear-gradient(135deg, rgba(247,255,255,1) 0%,rgba(247,255,255,1) 7%,rgba(247,255,255,1) 12%,rgba(255,255,255,1) 12%,rgba(249,253,255,1) 30%,rgba(242,251,254,1) 54%,rgba(239,248,253,1) 75%,rgba(236,245,252,1) 100%);
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(43, 42, 42, 0.3);
+
+}
+
+.MenuButton:hover{
+  background-color: red;
+}
+
+.play-icon {
+  color: white;
+  font-size: 24px;
+  pointer-events: none;       /* ensures clicking still works on button */
+}
+
+.PreviousButton, .ForwardButton{
+  height: 50px;
+  width: 50px;
+  background: linear-gradient(135deg, rgba(156, 206, 40, 1) 0%, rgba(103, 167, 51, 1) 100%);;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  position: absolute;
+  top: 225px;
+  left: 50%;
+  transform: translateX(-50%);
+}

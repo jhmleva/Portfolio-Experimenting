@@ -5,6 +5,13 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
+/*White Alt Hex: #FAF9F6*/
+/*Nice Onyx Gray: #363946*/
+/*Nice ASH Grey: #B1B6A6*/
+/* ENGLISH VIOLET#593F62*/
+/*Chinese VIOLET: #7B6D8D*/
+
 html{
     scroll-behavior: smooth;
 }
@@ -30,7 +37,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .resume, .projects, .commissions, .contact, footer{
+.about, .resume, .projects, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -63,17 +70,7 @@ section .title::before{
     background: rgb(17, 17, 17);
     transform: translateX(-50%);
 }
-/*subtitle border things*/
-section .title::after{
-    position: absolute;
-    bottom: -8px;
-    left: 50%;
-    font-size: 20px;
-    color: #FED049;
-    padding: 0 5px;
-    background: #55185D;
-    transform: translateX(-50%);
-}
+
 
 /* navbar style */
 .navbar{
@@ -87,19 +84,21 @@ section .title::after{
 .navbar.sticky{
     padding: 15px 0;
     z-index: 9999;
-    background: #290849;
+    background: #593F62;
 }
 .navbar .max-width{
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 9999;
+    
 }
 .navbar .logo a{
-    color: #fff;
-    font-size: 40px;
+    color: #FAF9F6;
+    font-size: 30px;
     font-weight: 600;
 }
+
 .navbar .logo a span{
     color: #FED049;
     transition: all 0.3s ease;
@@ -107,10 +106,10 @@ section .title::after{
 }
 /*Tee in Royaltee Logo*/
 .navbar.sticky .logo a span{
-    color: #fff;
+    color: #FAF9F6;
 }
 .navbar.sticky .li a:hover{
-    color: #fff;
+    color: #FAF9F6;
 }
 .navbar .menu li{
     list-style: none;
@@ -118,7 +117,7 @@ section .title::after{
 }
     
 .navbar .menu li a{
-    color: #fff;
+    color: #FAF9F6;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -128,27 +127,19 @@ section .title::after{
     color: #FED049;
     font-style: italic;
     text-decoration: underline;
-    background-color: rgba(33, 2, 43, 0.479);
 }
-
-/*DROPDOWN STYLING*/
-
-
-
 
 
 
 /* menu btn styling */
 .menu-btn{
-    color: #fff;
+    color: #FAF9F6;
     font-size: 23px;
     cursor: pointer;
     display: none;
 }
 .menu-btn:hover{
-color: #FED049;
     background: none;
-    box-shadow: 0 0 100px #FFFFD0;
     position: static;
 }
 /* scroll up button */
@@ -161,7 +152,7 @@ color: #FED049;
     bottom: 10px;
     text-align: center;
     line-height: 45px;
-    color: #fff;
+    color: #FAF9F6;
     z-index: 9999;
     font-size: 30px;
     border-radius: 6px;
@@ -180,12 +171,14 @@ color: #FED049;
     filter: brightness(90%);
 }
 
+
+
 /* Home Section */
 .home{
     display: flex;
     background: url("shiny-ge022d475c_1920.jpg") no-repeat center;
     height: 100vh;
-    color: #fff; /*Welcome, my name is Text Color*/
+    color: #FAF9F6; /*Welcome, my name is Text Color*/
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
     background-size: cover;
@@ -217,7 +210,7 @@ color: #FED049;
 .home .home-content a{
     display: inline-block;
     background: crimson;
-    color: #ffffff;
+    color: #FAF9F6;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
@@ -235,58 +228,143 @@ color: #FED049;
     display: none;
 }
 
+/*TOGGLE*/
 .toggle label {
+    width: 60px;
+    height: 30px;
     background-color: #777;
     border: 2px solid #555;
-    border-radius: 50px; /*Org val == 50PX*/
+    border-radius: 30px;
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: all ease-in-out 0.3s;
-    width: 50px; /*100px*/
-    height: 25px; /*50px*/
-}
-/*Circle for toggle*/
-.toggle label::after {
-    background-color: #555;
-    border-radius: 50%; /*50%*/
-    content: ' ';
-    cursor: pointer;
-    display: inline-block;
-    position: relative; /*absolute*/
-    left: 2px;
-    top: 2px;
-    transition: all ease-in-out 0.3s;
-    width: 21px; /*42px*/
-    height: 21px; /*42px*/
 }
 
+/* Toggle knob */
+.toggle label::after {
+    content: '🌞'; /* default icon */
+    width: 24px;
+    height: 24px;
+    background-color: #555;
+    border-radius: 50%;
+    position: absolute;
+    top: 1.3px;  
+    left: 3px;
+    transition: all ease-in-out 0.3s;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    display: flex;                  
+    align-items: center;          
+    justify-content: center;  
+    line-height: 1;
+
+}
+
+/* When checked */
 .toggle input[type='checkbox']:checked ~ label {
     background-color: #55185D;
     border-color: #290849;
 }
 
 .toggle input[type='checkbox']:checked ~ label::after {
+    content: '🌙';
     background-color: #290849;
-    transform: translateX(50px);
+    transform: translateX(30px) rotate(360deg) translateY(-1px); /* 👈 add rotation */
+
 }
 
-body.dark-theme {
-    background-color: rgb(61, 56, 56);
+
+                                            /*DARK MODE*/
+body.dark-theme{
+    background-color: #121212;
+    color: #AD7E4B;
 }
 
-/* about section styling */
-.about .title::after{
-    content: "Overview";
+body.dark-theme .projects{
+    background-color: #121212;
+    color: #AD7E4B;
 }
-.about.about{
-    background-color: lightslategrey; /*bg color for about me*/
+
+body.dark-theme .navbar.sticky{
+    background-color: #121212;
+    color: #AD7E4B;
 }
+
+body.dark-theme .scroll-up-btn{
+    background-color: #AD7E4B;
+}
+
+body.dark-theme footer{
+    background-color: #121212;
+}
+
+body.dark-theme .footer-text{
+    color: #AD7E4B;
+}
+body.dark-theme footer a{
+    color: #AD7E4B;
+}
+
+body.dark-theme .about .about-content .right a{
+    color: #FAF9F6;
+    background-color: #282828; /*DARK MODE SKILL CARDS TEXT COLOR*/
+    border: 2px solid #AD7E4B;
+
+}
+
+ body.dark-theme .projects .projects-content .left a{
+    color: #FAF9F6;
+    background-color: #282828; /*DARK MODE SKILL CARDS TEXT COLOR*/
+    border: 2px solid #AD7E4B;
+
+ }
+
+ body.dark-theme .projects .title{
+    color: #AD7E4B;
+ }
+
+ body.dark-theme .resume .serv-content .card{
+    background: #282828; /*DARK MODE SKILL CARDS BLACK COLOR*/
+   
+}
+
+body.dark-theme .resume{
+    color:#AD7E4B;
+    background: #121212; /*MAIN DARK MODE GREY COLOR*/
+}
+
+body.dark-theme .resume .serv-content .card:hover i{
+    color: #AD7E4B;
+}
+
+body.dark-theme .navbar .menu li a:hover{
+    color: #AD7E4B;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+body.dark-theme .resume .title::before{
+    background: #AD7E4B;
+}
+
+body.dark-theme section .title::before{
+    background: #AD7E4B;
+}
+
+
+                                        /*END OF DARK MODE STYLING*/
+
+                                    /* START OF ABOUT SECTION STYLING */
+
+.about.about.dark-theme{
+    background-color: #FAF9F6; /*bg color for about me*/
+}
+
 .about .about-content .left{
     width: 45%;
 }
 .about .about-content .left img{
-    height: 400px;
+    height: 500px;
     width: 400px;
     object-fit: cover;
     border-radius: 6px;
@@ -307,8 +385,8 @@ body.dark-theme {
 }
 .about .about-content .right a{
     display: inline-block;
-    background: #55185D;
-    color: #fff; /*Download Resume text color*/
+    background: #593F62;
+    color: #FAF9F6; /*Download Resume text color*/
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
@@ -317,10 +395,14 @@ body.dark-theme {
     border: 2px solid #55185D;
     transition: all 0.3s ease;
 }
-/*rollover download resume button*/
+
+
+
+
+/*rollover link button*/
 .about .about-content .right a:hover{
     color: #55185D;
-    background-color: #FFFFD0;
+    background-color: #FED049;
     font-style: italic;
     text-decoration: underline;
 }
@@ -329,41 +411,26 @@ body.dark-theme {
     width: 30px;
     height: 35px;
     margin-left: 550px;
-    border-radius: 10%;
     position: sticky;
 }
-  
-.crown2:hover {
-    color: #111;
-    background: none;
-    box-shadow: 0 0 100px #FFFFD0;
-    position: static;
-}
 
-/* resume section styling */
-/*commissions bg outer layer*/
-.resume, .commissions{
-    color:#fff; /*Commision and Skills text*/
-    background: #290849;
+/* SKILLS section styling */
+.resume{
+    color:#FAF9F6; /*Commision and Skills text*/
+    background: #7B6D8D;
 }
-.resume .title::before,
-.commissions .title::before{
-    background: #fff;
-}
-.resume .title::after,
-.commissions .title::after{
-    background: #111;
-    content: "My Experience";
+.resume .title::before{
+    background: #FAF9F6;
 }
 
 /*resume cards*/
 .resume .serv-content .card{
     width: calc(33% - 20px);
-    background: #55185D;
-    text-align: center;
+    background: #593F62;
+    text-align: left;
     border-radius: 6px;
     padding: 50px 25px;
-    cursor: pointer;
+    cursor: default;
     transition: all 0.3s ease;
 }
 
@@ -383,8 +450,9 @@ body.dark-theme {
     transition: color 0.3s ease;
 }
 .resume .serv-content .card:hover i{
-    color: #fff;
+    color: #FAF9F6;
 }
+
 .resume .serv-content .card .text{
     font-size: 25px;
     font-weight: 500;
@@ -392,34 +460,79 @@ body.dark-theme {
 }
 
 /* skills section styling */
-.projects .title::after{
-    content: "Art + Coding";
-}
-.projects.projects{
-    background-color: lightslategrey; /*bg color for projects*/
 
+/* Section background */
+.projects {
+    background-color: #FAF9F6;
+    padding: 60px 20px;
 }
 
-.projects .projects-content .column{
-    width: calc(50% - 30px);
+/* Title styling */
+.projects .title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #290849;
 }
-.projects .projects-content .left .text{
+
+/* Flex container */
+.projects-content {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Individual project box */
+.project-item {
+    flex: 1 1 400px;
+    max-width: 500px;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Image styling */
+.project-item figure {
+    margin: 0 0 10px;
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Caption */
+.project-item figcaption {
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Project heading */
+.project-item .text {
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 10px;
-}
-.projects .projects-content .left p{
-    text-align: justify;
-}
-figure{
-    right: 0px;
+    margin: 15px 0 10px;
+    color: #593F62;
 }
 
-/*button*/
-.projects .projects-content .left a{
+/* Paragraph */
+.project-item p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Button */
+.project-item a {
     display: inline-block;
-    background: #55185D;
-    color: #fff;
+    background: #593F62;
+    color: #FAF9F6;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
@@ -427,225 +540,35 @@ figure{
     border-radius: 6px;
     border: 2px solid #55185D;
     transition: all 0.3s ease;
+    text-decoration: none;
 }
-.projects .projects-content .left a:hover{
+
+.project-item a:hover {
     color: #55185D;
-    background-color: #FFFFD0;
+    background-color: #FED049;
     font-style: italic;
     text-decoration: underline;
 }
-.projects .projects-content .right{
-    margin-bottom: 15px;
-}
-.projects .projects-content .right .info{
-    display: flex;
-    margin-bottom: 5px;
-    align-items: center;
-    justify-content: space-between;
-}
-.projects .projects-content .right span{
-    font-weight: 500;
-    font-size: 18px;
-}
-.projects .projects-content .right .line{
-    height: 5px;
-    width: 100%;
-    background: lightgrey;
-    position: relative;
-}
-.projects .projects-content .right .line::before{
-    content: "";
-    position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: #FED049;
-}
+ 
 
-/* commisions section styling */
-.commissions .title::after{
-    content: "Requests + Prices";
-}
-.commissions .carousel .card{
-    background: #55185D;
-    border-radius: 6px;
-    padding: 25px 35px;
-    text-align: center;
-    overflow: hidden;
-    transition: all 0.3s ease;
-}
-/*commisions hover*/
-.commissions .carousel .card:hover{
-    background: #FED049;
-}
-.commissions .carousel .card .box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
-}
-.commissions .carousel .card:hover .box{
-    transform: scale(1.05);
-}
-.commissions .carousel .card .text{
-    font-size: 25px;
-    font-weight: 500;
-    margin: 10px 0 7px 0;
-}
-.commissions .carousel .card img{
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid #FED049;
-    transition: all 0.3s ease;
-}
-.commissions .carousel .card:hover img{
-    border-color: #fff;
-}
-.owl-dots{
-    text-align: center;
-    margin-top: 20px;
-}
-.owl-dot{
-    height: 13px;
-    width: 13px;
-    margin: 0 5px;
-    outline: none!important;
-    border-radius: 50%;
-    border: 2px solid #FED049!important;
-    transition: all 0.3s ease;
-}
-.owl-dot.active{
-    width: 35px;
-    border-radius: 14px;
-}
-.owl-dot.active,
-.owl-dot:hover{
-    background: #FED049!important;
-}
-/* contact section styling */
-.contact .title::after{
-    content: "Contact Info";
-}
-.contact.contact{
-    background-color: lightslategrey; /*bg color for contact*/
-
-}
-.contact .contact-content .column{
-    width: calc(50% - 30px);
-}
-.contact .contact-content .text{
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-.contact .contact-content .left p{
-    text-align: justify;
-}
-.contact .contact-content .left .icons{
-    margin: 10px 0;
-}
-.contact .contact-content .row{
-    display: flex;
-    height: 65px;
-    align-items: center;
-}
-.contact .contact-content .row .info{
-    margin-left: 30px;
-}
-
-/*icons*/
-.contact .contact-content .row i{
-    font-size: 25px;
-    color: #55185D;
-}
-.contact .contact-content .info .head{
-    font-weight: 500;
-}
-.contact .contact-content .info .sub-title{
-    color: #333;
-}
-.contact .right form .fields{
-    display: flex;
-}
-.contact .right form .field,
-.contact .right form .fields .field{
-    height: 45px;
-    width: 100%;
-    margin-bottom: 15px;
-}
-.contact .right form .textarea{
-    height: 80px;
-    width: 100%;
-}
-.contact .right form .name{
-    margin-right: 10px;
-}
-.contact .right form .field input,
-.contact .right form .textarea textarea{
-    height: 100%;
-    width: 100%;
-    border: 2px solid lightgrey;
-    border-radius: 6px;
-    outline: none;
-    padding: 0 15px;
-    font-size: 17px;
-    font-family: 'Poppins', sans-serif;
-    transition: all 0.3s ease;
-}
-.contact .right form .field input:focus,
-.contact .right form .textarea textarea:focus{
-    border-color: #b3b3b3;
-}
-.contact .right form .textarea textarea{
-  padding-top: 10px;
-  resize: none;
-}
-.contact .right form .button-area{
-  display: flex;
-  align-items: center;
-}
-
-/*send message button*/
-.right form .button-area button{
-  color: #fff;
-  display: block;
-  width: 160px!important;
-  height: 45px;
-  outline: none;
-  font-size: 18px;
-  font-weight: 500;
-  border-radius: 6px;
-  cursor: pointer;
-  flex-wrap: nowrap;
-  background: #55185D;
-  border: 2px solid #55185D;
-  transition: all 0.3s ease;
-}
-
-/*Send Message Rollover Button*/
-.right form .button-area button:hover{
-  color: #55185D;
-  background-color: #FFFFD0;
-  font-style: italic;
-  text-decoration: underline;
-}
 
 /* footer section styling */
+
 footer{
-    background: #290849;
+    background: #593F62;
     padding: 15px 23px;
-    color: #fff;
+    color: #FAF9F6;
     text-align: center;
 }
-footer span a{
+.footer-text a {
     color: white;
     text-decoration: none;
 }
-footer span a:hover{
-    text-decoration: underline;
+
+.footer-text a:hover{
+    color: #FED049;
+    text-decoration:underline;
+    font-style: italic;
 }
 
 @media (max-width: 1104px) {
@@ -673,7 +596,7 @@ footer span a:hover{
         width: 100%;
         left: -100%;
         top: 0;
-        background: #111;
+        background: #282828;
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
@@ -769,4 +692,11 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
+}
+
+@media (max-width: 768px) {
+  .projects-content {
+    flex-direction: column;
+    align-items: center;
+  }
 }
